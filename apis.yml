@@ -39,12 +39,10 @@ tags:
 - Company
 - Biotechnology
 - Life Sciences
-- Startups
 tags_raw:
 - Company
 - Biotechnology
 - Life Sciences
-- Startup
 apis: []
 common:
 - type: DomainSecurity
@@ -61,3 +59,7 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-tags-removed:
+- Startups
+x-company-stage: startup
+x-company-stage-evidence: "own tags: Startup"
